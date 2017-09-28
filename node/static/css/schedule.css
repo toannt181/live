@@ -1,0 +1,439 @@
+
+
+
+
+ #euro_group #team-info {
+display: none;
+}
+#euro_group #match-schedule ul.date,
+#euro_group #group-schedule .group {
+box-shadow: none;
+}
+#page-article .the-article .main .the-article-credit {
+display: none;
+}
+#page-article .the-article .the-article-header .the-article-thumbnail,
+#page-article .the-article .the-article-header {
+display: none;
+}
+#page-article .the-article .main .the-article-share {
+text-align: center !important;
+margin-top: 30px !important;
+}
+#page-article .the-article .main {
+padding-top: 0px !important;
+}
+#page-article .the-article .main .the-article-tags,
+#page-article .the-article .main .the-article-summary {
+display: none;
+}
+#page-article .the-article .main .the-article-comment {
+padding: 0 20px;
+}
+#page-article .the-article .recommendation {
+display: none;
+}
+#page-article .the-article .main .the-article-body,
+#page-article .the-article .the-article-body .inpage {
+background: url(http://stc.v3.news.zing.vn/euro2016/img/bg_pattern.png) top center #0078A5;
+position: relative;
+}
+#page-article .the-article .main .the-article-body:after,
+#page-article .the-article .the-article-body .inpage:after {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-image: radial-gradient(circle closest-corner at top center,#5CC8FF,rgba(0, 163, 247, 0.58));
+z-index: 2;
+}
+#page-article .the-article .main .the-article-body > * {
+position: relative;
+z-index: 9;
+}
+#page-article .the-article .the-article-body .inpage #euro_group {
+padding-left: 0;
+padding-right: 0;
+}
+.page-wrapper > .the-article {
+padding-top: 0px !important;
+}
+#page-header {
+margin-bottom: 0px;
+}
+#euro_group {
+float: left !important;
+width: 100% !important;
+padding: 10px 4% 50px;
+position: relative;
+
+}
+#euro_group .navigator {
+width: 100%;
+margin: 0;
+}
+#euro_group .navigator .group-navigator {
+margin-top: 0;
+}
+#euro_group .group-navigator ul.group {
+box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.1);
+}
+#group-schedule .groups {
+list-style: none;
+float: left;
+width: 100%;
+list-style: none;
+padding: 0;
+margin: 0;
+}
+#group-schedule .group {
+float:left;
+width: 48%;
+margin-right: 4%;
+font-family: 'Roboto', sans-serif;
+margin-bottom: 40px;
+background: rgba(255,255,255,0.9);
+box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.1);
+padding: 0;
+}
+#group-schedule .group table {
+margin: 0 !important;
+}
+#group-schedule .group h3 {
+font-weight: 300;
+font-size: 1.2em;
+text-align: left;
+color:#111;
+padding: 5px 10px;
+}
+#group-schedule .group:nth-child(2n) {
+margin-right: 0;
+}
+#group-schedule .team {
+margin-bottom: 0 !important;
+}
+#group-schedule .team th {
+font-weight: normal;
+font-size: 12px;
+background: #f7f7f7;
+width: 60px;
+padding: 0px 5px;
+}
+#group-schedule .team th.name {
+width: auto;
+}
+#group-schedule .team td {
+line-height: 16px;
+font-size: 13px;
+padding: 8px 5px;
+border-bottom: 1px solid #f1f1f1;
+}
+#group-schedule .team img {
+width: 32px !important;
+height: 16px !important;
+vertical-align: middle;
+margin-right: 5px;
+position: relative;
+top: -1px;
+}
+#group-schedule .team a {
+text-decoration: none !important;
+border: 0 !important;
+}
+
+#group-schedule {
+float: left;
+width: 100%;
+}
+#team-info > p {
+font-family: 'Roboto', sans-serif;
+color: rgba(255, 255, 255, 0.79);
+text-align: center;
+margin: 0 !important;
+}
+#team-info h2, #group-schedule h2,#match-schedule h2 {
+font-family: 'Roboto', sans-serif;
+font-size: 1.6em;
+font-weight: 400;
+text-align: center;
+margin: 30px 0 30px;
+text-transform: uppercase;
+float: left;
+width: 100%;
+color:#0089dd;
+}
+#group-schedule .group > a{
+display: block;
+font-size: 12px;
+padding: 2px 10px;
+text-align: center;
+background: #FEFFD1;
+}
+#group-schedule .schedule {
+list-style: none;
+float: left;
+width: 100%;
+background: #f7f7f7;
+padding: 14px 15px 0;
+display: none;
+}
+#group-schedule .schedule li {
+border-bottom: 1px solid #f1f1f1;
+padding-bottom: 14px;
+margin-bottom: 13px;
+text-align: center;
+float: left;
+width: 100%;
+}
+#group-schedule .schedule li:last-child {
+margin-bottom: 0;
+border:0;
+}
+#group-schedule .schedule li p {
+margin: 0 !important;
+float: left;
+}
+#group-schedule .schedule li .info {
+font-size:12px;
+line-height: 14px;
+text-align: left;
+}
+#group-schedule .schedule li .info .time {
+display: block;
+}
+#group-schedule .schedule li .info .date {
+color:#888;
+font-weight: 300;
+}
+#group-schedule .schedule li .stadium {
+font-size: 12px;
+}
+#group-schedule .schedule li .match {
+width: 300px;
+float: right;
+font-size: 14px;
+text-align: right;
+}
+#group-schedule .schedule li .match strong {
+width: 100px;
+display: inline-block;
+font-weight: normal;
+background: #fff;
+padding: 0 5px;
+text-align: center;
+}
+#group-schedule .schedule li .match span {
+display: inline-block;
+/*background: #eee;*/
+padding: 0 15px;
+margin: 0 10px;
+border-radius: 3px;
+}
+#match-schedule {
+font-family: 'Roboto', sans-serif;
+}
+#match-schedule p {
+margin: 0 !important;
+line-height: 45px;
+font-size: 14px;
+display: inline-block;
+}
+#match-schedule h3 {
+text-align: center;
+background: #eee;
+font-weight: 300;
+padding: 5px 10px;
+clear:both;
+margin-top: 10px;
+float:left;
+width: 100%;
+}
+#match-schedule ul.date {
+float: left;
+width: 100%;
+background: #FFF;
+box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.1);
+list-style: none;
+padding: 0;
+margin: 0;
+}
+#match-schedule ul.date > li > p {
+width: 15%;
+padding-left: 10px;
+vertical-align: top;
+font-weight: bold;
+}
+#match-schedule ul.date > li {
+border-bottom: 1px solid #eee;
+float: left;
+width: 100%;
+padding: 0;
+}
+#match-schedule ul.hour, #match-schedule ul.date > li > p.empty {
+display: inline-block;
+width: 80%;
+text-align: left;
+float:right;
+list-style: none;
+padding: 0;
+margin: 0;
+}
+#match-schedule ul.date > li > p.empty {
+text-align: center;
+background: #FFFDD2;
+font-weight: normal;
+color: #F00;
+}
+#match-schedule ul.hour li:nth-child(2n) {
+background: #fafafa;
+}
+#match-schedule ul.hour p.hour {
+width: 10%;
+text-align: center;
+}
+#match-schedule ul.hour p.group {
+width: 10%;
+text-align: center;
+}
+#match-schedule ul.hour p.match img {
+width: 24px !important;
+height: 12px !important;
+vertical-align: middle;
+margin-right: 5px;
+}
+#match-schedule ul.hour p.match {
+width: 50%;
+text-align:center;
+}
+#match-schedule ul.hour p.match strong {
+width: 100px;
+display: inline-block;
+text-align: left;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+#match-schedule ul.hour p.match strong:first-child {
+text-align: right;
+}
+#match-schedule ul.hour p.match strong:first-child img {
+margin-left: 5px;
+}
+#match-schedule ul.hour p.match span {
+background: #f7f7f7;
+display: inline-block;
+padding: 0 10px;
+margin: 0 15px;
+width: 65px;
+}
+#match-schedule ul.hour p.channel {
+width: 25%;
+padding-right: 15px;
+}
+#match-schedule ul.hour p.channel span,
+#match-schedule ul.hour p.channel a {
+display: inline-block;
+border: 1px solid #ddd;
+line-height: 20px;
+border-radius: 3px;
+padding: 0 5px;
+}
+#match-schedule ul.hour p.channel a {
+color: #F00 !important;
+border-color:#F00;
+}
+#match-schedule ul.hour p.channel span.vtv6 {
+color: #00ADB3 !important;
+border-color: #00CBD2;
+}
+@media (max-width: 999px) {
+.page-wrapper {
+width: 100%;
+margin-left: 0;
+left: 0;
+}
+#euro_group .group-navigator ul.group>li {
+width: 33.33%;
+}
+#match-schedule ul.date > li > p {
+width: 100%;
+text-align:center;
+background: #FEFFD1;
+}
+#match-schedule ul.hour p.channel {
+display: none;
+}
+#match-schedule ul.hour p.match strong {
+font-size: 12px;
+width: 70px;
+}
+#match-schedule ul.hour > li {
+
+text-align:center;
+}
+#match-schedule ul.hour, #match-schedule ul.date > li > p.empty {
+width: 100%;
+}
+#page-article .the-article {
+margin-top: 0;
+padding: 40px 0;
+}
+#zingheader {
+margin-bottom: 0;
+}
+#page-article .the-article .main .the-article-header,
+#page-article .the-article .main .the-article-summary {
+padding: 0 5%;
+}
+#page-article .the-article .main .the-article-summary {
+margin-bottom: 30px;
+}
+#group-schedule .group {
+width: 100%;
+margin-right: 0;
+}
+#team-info h2, #group-schedule h2, #match-schedule h2 {
+font-size: 1.4em;
+line-height: 1.5;
+margin:0 0 10px;
+}
+#group-schedule .team a:after {
+display: none;
+}
+#euro_group {
+padding-top: 30px;
+}
+}
+@media (max-width: 600px) {
+#match-schedule ul.hour p.channel {
+width: 120px;
+}
+#match-schedule ul.hour > li {
+text-align: center;
+}
+#group-schedule .team th {
+width: 50px;
+white-space: nowrap;
+}
+}
+@media (max-width: 500px) {
+#match-schedule ul.hour p.match strong {
+font-size: 12px;
+}
+#match-schedule ul.hour p.match span {
+width: auto;
+}
+#match-schedule ul.hour p.channel {
+display: none;
+}
+#match-schedule ul.hour p.group {
+display: none;
+}
+#match-schedule ul.hour p {
+display: inline;
+}
+#group-schedule .team img {
+display: none;
+}
+}

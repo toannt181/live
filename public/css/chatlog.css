@@ -1,0 +1,216 @@
+@charset "UTF-8";
+
+.close {
+    color: black;
+    font: 20px/100% arial, sans-serif;
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    top: 5px;
+    z-index: 999999;
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+}
+
+.active .close {
+    color: white;
+}
+
+.close:after {
+    content: '×';
+    /* UTF-8 symbol */
+}
+
+.close:hover {
+    cursor: pointer;
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
+.my-tab {
+    width: 150px;
+    overflow: hidden;
+    float: left;
+    border-left: 2px solid #5fbeaa;
+    margin-left: 10px;
+    padding-left: 3px;
+    background: #fff;
+}
+
+.chat {
+    list-style: none;
+    background: none;
+    margin: 0;
+    padding: 0 0 50px 0;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 800px) {
+    li img {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 550px) {
+    li img {
+        width: 200px;
+    }
+}
+
+/* T Y P E */
+
+.chat-footer{
+    position: fixed;
+    bottom: 0%;
+    left: 17%;
+    width: 54%;
+    height: 75px;
+    z-index: 99;
+    background: #fff;
+    border: 0.5px solid black;
+    color: #666;
+    font-weight: 400;
+}
+
+.btn-footer button{
+    margin-left: 2px;
+}
+
+input.textarea {
+    width: 100%;
+    height: 50px;
+    padding-left: 55px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+    outline: none;
+    padding-right: 55px;
+}
+
+.other{
+    background: #f2f2f2;
+    float: left;
+    color: black;
+}
+
+.self{
+    float: right;
+    background: #0084ff;
+    color: #fff;
+}
+
+.room-tag{
+    float: right;
+}
+
+.self-metalink {
+    float: right;
+}
+
+.other-metalink {
+    float: left;
+}
+
+span.other + span.self{
+    border-bottom-right-radius: 5px;
+}
+
+span.self + span.self{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+span.self:last-of-type {
+    border-bottom-left-radius: 30px;
+}
+
+span.self + .other{
+    border-bottom-left-radius: 5px;
+}
+
+span.other + .other{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+span.other:last-of-type {
+    border-bottom-right-radius: 30px;
+}
+
+.li-chat {
+    display:inline-block;
+    clear: both;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    max-width: 550px;
+    height: auto;
+    word-wrap: break-word;
+}
+
+.li-image {
+    display:inline-block;
+    clear: both;
+    margin-bottom: 2px;
+}
+
+.li-image img{
+    max-width: 320px;
+    height: auto;
+}
+
+.self a{
+    color: white;
+}
+
+.other a{
+    color: black;
+}
+
+.self a:hover, .other a:hover{
+    text-decoration: underline;
+}
+
+.meta-box{
+    margin-top: 8px;
+    padding: 8px;
+    border: 1px solid #eaeaea;
+    font-size: 12px;
+    max-width: 300px;
+    border-radius: 4px;
+    background: #fafafa;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.meta-box .box-title {
+    display: flex;
+}
+
+
+.meta-box .box-title .box-image{
+    width: 128px;
+}
+
+.meta-box .box-title .title {
+    padding-left: 8px;
+    flex-grow: 1;
+}
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+.meta-box .box-title .box-image img {
+    width: 100%;
+}
+
+.font-weight-bold p{
+    margin-top: 10px;
+}
+
+.meta-box .box-title a{
+    color: black;
+}
+
+.meta-box .box-title a:hover{
+    text-decoration: underline;
+}

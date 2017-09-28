@@ -1,0 +1,333 @@
+Body, html, div, img, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dd, dt, blockquote, fieldset, legend, label, input, textarea {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	outline: none !important;
+}
+img, object, embed {
+	border: 0 none;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;	
+	height: auto;
+}
+body {
+	color: #fff;
+	position: relative;
+	font-size: 16px;	
+	font-family: Roboto; 
+	font-style: normal;
+	font-weight: 300;
+	line-height: 24px;
+	background:#2d2719 url(../images/bg-main.jpg) top center no-repeat;
+}
+a {
+	text-decoration: none; 
+	color: #0089dd;
+	outline: 0;
+	transition: all 0.2s ease 0s;
+}
+a:hover{ color:#b1334b}
+table { 
+  width: 100%; 
+  border-collapse: collapse;
+}
+
+th { 
+  
+  color: #0089dd; 
+  font-weight: bold; text-transform:uppercase; font-size:18px ;border-bottom: 3px solid #0089dd;padding: 10px 13px; 
+}
+td { 
+  padding: 10px 13px; 
+  border-bottom: 1px solid #ccc;  color:#333
+}
+
+.fleft { float:left}
+a:hover { color:#0089dd;text-decoration: none; }
+.bt { padding:15px 25px; background-color:#ffce01; color:#333; border:none; font-size:18px; text-transform:uppercase; font-weight:500;}
+.bt:hover { background-color:#fdda46}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0
+}
+* html .clearfix {
+	height: 1%
+}
+.yellow { color:#f3c413}
+
+
+.ml0{ margin-left:0 !important}
+.title {  margin-bottom:15px; padding-bottom:10px; font-size:34px; font-weight:400; text-transform:uppercase; line-height:24px; color:#f3c413; text-align:center}
+.rowbt { margin-top:10px}
+/*== css main===*/
+.inner-page { width:1355px; margin:0 auto; position:relative;}
+/*== nav top ===*/
+#nav { width:100%; top: 0px; left: 0; right:0; z-index: 999; margin-bottom:3% }
+#nav .logo { float:left; padding-top:13px; display:block; padding-top:20px}
+#nav .logo img { height:59px;}
+
+#nav .menu { float:left; margin-left:10px; padding-top:30px;}
+#nav .menu  li { float:left;background:url(../images/bt-left.png) left no-repeat; padding-left:21px; position:relative; margin-left:-10px}
+#nav .menu  li:last-child a,#nav .menu  li:last-child.active a,#nav .menu  li:last-child:hover a { background-position:left top; padding-right:21px}
+#nav .menu  li a { color:#333; text-align:center; font-size:16px; text-transform:uppercase; padding-right:31px; padding-left:2px; background:url(../images/bt-right.png) right center; line-height:40px; display:block}
+#nav .menu  li.active,#nav .menu  li:hover { background:url(../images/bt-left-ov.png) left top no-repeat}
+#nav .menu  li.active a,#nav .menu  li:hover  a { background:url(../images/bt-right-ov.png) right top no-repeat}
+.linkface { float:right; margin-top:30px; display:inline-block; margin-right: 5px;}
+/*==== container page====*/
+.Container { background: rgba(0,0,0,0.5); padding:3%; color:#fff}
+.block { border-bottom:3px solid #464646; border-top:3px solid #464646; padding:3% 0}
+#schedule { border:none}
+/*
+#nav .menu  li .downmenu {transition: all 0.2s ease 0s;-moz-transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s; visibility:hidden;top:140px; position:absolute; left:5px; border-top:3px  solid #ffce01; background-color:#111112; min-width:180px;z-index:99999; opacity:0;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.36); padding-bottom:7px}
+#nav .menu  li .downmenu li { float:none; display:block;line-height:20px; background:none}
+#nav .menu  li .downmenu li a {line-height:28px; padding:3px 20px; font-size:14px; color:#767676; text-align:left; border:none; background:none}
+#nav .menu  li:hover .downmenu { opacity:1; top:40px;z-index:99999; visibility:visible;}*/
+/*==== Home page=========*/
+.main-block-top { text-align:center; margin-bottom:3%}
+.blocktext { margin-bottom:3%; text-transform:uppercase;text-align:center;}
+.blocktext h2 { font-size:44px; color:#f3c413; margin-bottom:2%}
+.blocktext p { font-size:20px;margin-bottom:1%}
+ .listinfo { margin-bottom:3%; text-align:center}
+ .listinfo li { padding:1% 4%; display:inline-block; border-left:3px solid #fff;}
+ .listinfo li:first-child { border:none}
+ .listinfo li h2 {margin-bottom:2%; text-transform:uppercase; font-size:30px;}
+ 
+#infoTeam .listeam { border:none}
+#infoTeam .listeam li { width:12.5%; text-align:center; float:left}
+#infoTeam .listeam li a { color:#fff; text-transform:uppercase; font-size:12px; outline:none; box-shadow:none !important; border:none !important; opacity:0.6; padding:0 5px}
+#infoTeam .listeam li a img { margin-bottom:5px; width:100%}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover,.nav-tabs > li > a:hover { background-color:transparent; padding:0; border:none; box-shadow:none !important; opacity: 1 !important}
+.listgamer { text-align:center}
+.listgamer li { width:32.333%; display:inline-block; padding:3%}
+
+#part .listcont { text-align:center; overflow:hidden}
+#part .listcont li { width:14.1%; text-align:center; display:inline-block; text-transform:uppercase; font-size:12px; float:left; padding:2%}
+#part .listcont li img { margin-bottom:5px}
+
+/*===== dự đoán ====*/
+.topInfo { margin-bottom:2%; text-transform:uppercase;text-align:left; padding-top:2%}
+.topInfo h2 { font-size:44px; color:#f3c413; margin-bottom:1%; font-weight:500}
+.topInfo p { font-size:20px;margin-bottom:1%; line-height:26px}
+.rowbt {  margin-top:1%}
+.rowbt a { background:url(../images/bt-right-ov.png) right center no-repeat; line-height:50px; color:#333; font-size:16px; text-transform:uppercase; display:inline-block; padding:0 40px 0 30px; font-weight:bold}
+.rowbt a:hover { text-decoration:underline}
+/*== current page===*/
+.bread { margin-bottom:3%; font-size:16px; text-transform:uppercase; color:#999; overflow:hidden}
+.bread li { margin-right:1%; float:left}
+.bread li.current { color:#fff}
+.tabmenu { border-bottom:1px solid #f3c413; overflow:hidden}
+.tabmenu li { float:left; width:25%; margin-right:10px; text-align:center}
+.tabmenu li a { background-color:#CCC; color:#333; font-size:18px; text-transform:uppercase;display:block; font-weight: 500; line-height:36px}
+.tabmenu li a.active { background-color:#f3c413}
+.theat { overflow:hidden; border-bottom:1px solid #f3c413; padding-bottom:1%; margin-bottom:2%; font-size:18px; text-transform:uppercase; color:#fff; margin-top:3%; font-weight:500; text-align:center}
+.theat .td1 { width:20%; float:left}
+.theat .td2 { width:60%; float:left;}
+.theat .td3 { width:20%; float:left}
+
+/*==bxbit===*/
+.bxbit { margin-top:30px;}
+.headtxt { text-transform:uppercase;}
+.bxbit .rowbit { margin-bottom:5%;border-bottom:1px solid #CCC;}
+.bxbit .rowbit h2.date { font-weight:bold; font-size:22px; color:#f3c413; margin-bottom:5px;border-bottom:1px solid #CCC; padding-bottom:1%}
+
+.linebox { padding:10px 0;  margin-bottom:-1px; position:relative}
+.linebox:hover { cursor:pointer; background-color:rgba(0,0,0,0.5)}
+.rowbit .bxtime { width:20%; line-height:52px; float:left; text-align:center}
+.rowbit .bxtime .time {  width:60%; color:#333; font-size:22px; text-align:center; background-color:#fff; line-height:35px; display:inline-block;}
+
+.team-cl { overflow:hidden; float:left; width:60%}
+.team-cl .bxteamleft {  width:28%; float:left; overflow:hidden; line-height:52px;  margin-right:20px; text-align:right;}
+.team-cl .bxteamleft .nameteam,.team-cl .bxteamright .nameteam { font-size:26px; text-transform:uppercase; font-weight:bold}
+.nameteam.select { color:#ccc}
+.team-cl .bxteamright {  width:28%; float:left; overflow:hidden; line-height:52px; margin-left:20px; text-align:left}
+
+.team-cl .bxflags {  width:36%; float:left; overflow:hidden; line-height:38px; border:1px solid #39F; border-radius:50px; padding:3px; overflow:hidden; background-color:#fff; text-align:center}
+	.bxflags .flags { width:44px; height:44px; float:left; display:block;}
+	.bxflags .flags:last-child { float:right}
+	.bxflags .flags img { width:100%}
+	.bxflags .point { width:100px; text-align:center; font-size:26px; line-height:44px; color:#333; margin:0 auto}
+
+.coregift { float:left; width:20%; line-height:52px; font-size:24px; text-transform:uppercase; color:#f3c413; text-align:center}
+
+/*==footer===*/
+footer {  padding:20px 0; margin-top:3%; border-top:1px solid #333; background-color:rgba(0,0,0,0.6)}
+footer .logo-footer { float:left; width:15%}
+footer .coppy { float:left; width:66%; font-size:10px; line-height:16px; color:#898989; text-align:justify; margin-left:2%; margin-right:2%}
+/*detail bit*/
+#detailBit .rowbit { border:none}
+#detailBit .linebox:hover { background-color:transparent; cursor: default}
+#detailBit .team-cl,#detailBit .td2 { width:80%}
+.bx-selec-bit { padding-left:20%}
+.bx-selec-bit .rowbt-bit { overflow:hidden; margin:2% 0}
+.bx-selec-bit .rowbt-bit .btbit { width:50%; line-height:40px; color:#333; font-size:16px; text-transform:uppercase; float:left; text-align:center; font-weight:bold; cursor:pointer}
+.bx-selec-bit .rowbt-bit .btbit.first { width:50%; background:url(../images/bt-right.png) right top no-repeat; line-height:40px;}
+.bx-selec-bit .rowbt-bit .btbit.first:hover,.bx-selec-bit .rowbt-bit .btbit.first.selected { background:url(../images/bt-right-ov.png) right top no-repeat;}
+.bx-selec-bit .rowbt-bit .btbit.second { background:url(../images/bt-select.png) left top no-repeat;}
+.bx-selec-bit .rowbt-bit .btbit.second:hover,.bx-selec-bit .rowbt-bit .btbit.second.selected { background:url(../images/bt-select-ac.png) left top  no-repeat;}
+.bx-selec-bit .rowcount { overflow:hidden;}
+.bx-selec-bit .rowcount .cl-line { background-color:#fff; line-height:34px; text-align:center; float:left; color:#333; font-size:20px; font-weight:bold}
+.bx-selec-bit .rowcount .cl-line:last-child { background-color:#f3c413;}
+
+.bxipgift { text-align:center; padding-left:20%; margin-top:5%}
+.bxipgift .txt { font-size:24px; text-transform:uppercase; margin-bottom:5px}
+.bxipgift .ipgift { font-size:24px; color:#f3c413}
+.videoWrapper {	position: relative;	padding-bottom: 56.25%;	padding-top: 25px;height: 0;}
+.videoWrapper iframe {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+#livevideos .rowbit { padding-bottom:2%}
+#livevideos .linebox:hover { background-color:transparent; cursor: default}
+#livevideos .bxtime { width:100%; float:none}
+#livevideos .bxflags { width:40%}
+#livevideos .bxtime .time {color:#f3c413; background-color:transparent}
+#livevideos .team-cl { width:100%;float:none} 
+#livevideos .bx-selec-bit,#livevideos .bxipgift { padding-right:20%;margin:2% 0}
+.resuleLive { width:20%; margin:0% auto; text-align:center}
+.resuleLive span { background-color:#f3c413; line-height:40px; border-radius:0 0px 6px 6px; display:block; color:#333; font-size:26px}
+
+#questionGroup .panel-heading,.panel,.panel-default > .panel-heading + .panel-collapse > .panel-body { background-color:transparent;border-color:#ccc; color:#fff}
+#questionGroup .panel-heading span { font-size:16px; font-weight:bold; color:#f3c413}
+.panel-title a { color:#fff !important; outline:none}
+#questionGroup .panel-group .panel { border-radius:0}
+
+.bxchat { border:1px solid #f3c413; margin-top:5%;}
+.bxchat .contchat { min-height:300px; max-height:500px; overflow:auto; padding:2%}
+.contchat .rowcont { overflow:hidden; margin-bottom:1%}
+.contchat .rowcont .avatar { width:6%; float:left}
+.contchat .rowcont .avatar img { width:100%}
+.contchat .rowcont .textchat { width:92%; margin-left:2%; float:left}
+.contchat .rowcont .textchat .name { color:#f3c413; font-weight:bold}
+.bxinputchat { border-top:1px solid #f3c413; overflow:hidden}
+.bxinputchat .input { width:85%; float:left; line-height:40px; background-color:#333333; padding-left:3%}
+.bxinputchat .sent { width:15%; float:left; color:#333; line-height:40px; text-align:center; background-color:#f3c413}
+/*=== box list gift ======*/
+.bx-listgift { margin-top:3%}
+.listgift { overflow:hidden; margin-top:3%}
+.listgift li { width:20%; padding:2%; position:relative; float:left}
+.listgift li .x2 { position:absolute; top:0; right:3%;}
+.boxline .item {width: 1090px;text-align: center;}
+.boxline .linegift { background: url(../images/line.png) left center no-repeat; height:42px; position: relative;}
+.boxline .linegift .line { background:url(../images/line-ac.png) left center no-repeat; height:42px; position:absolute; left:0; top:0;}
+
+.arrow_box {
+	position: relative;
+	background: #fff;
+}
+.arrow_box:after {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #fff;
+	border-width: 10px;
+	margin-left: -10px;
+}
+.bxcontgift { background:#fff; width:300px; padding:10px 40px 10px 10px; position:relative; z-index:999; height:140px; margin-top:20px}
+.bxcontgift.d { margin-left:0px}
+.bxcontgift.d1 { margin-left:128px}
+.bxcontgift.d2 { margin-left:392px}
+.bxcontgift.d3 { margin-left:655px}
+.bxcontgift.d4 { margin-left:790px}
+.bxcontgift.d:after {	left: 15px !important; left:auto;}
+
+.d4:after {	right: 15px !important; left:auto;}
+
+.bxcontgift .bximg { width:30%; float:left}
+.bxcontgift .bxcont .done { width:40px; position:absolute; top:0; right:5px;}
+.bxcontgift .bxcont { width:70%; float:left; color:#333;text-align:left; font-size:12px }
+.bxcontgift .bxcont h2 { font-weight:500; text-transform:uppercase; font-size:12px}
+.bxcontgift .bxcont p { margin-bottom:5%;}
+
+.btgift { background-color:#f3c413; padding:5px 15px; color:#333; text-transform:uppercase}
+
+
+@media screen and (max-width:790px) {
+	
+body {font-size: 14px;line-height: 20px;} 
+.inner-page { width:96%; margin:0 auto;}
+#nav .logo,#nav .logo-fifa,.linkface { display:none}
+#nav .menu { float:none; padding-top:60px; background:none; padding-left:5px; margin-left:0; height:auto}
+#nav .menu  li { float:none; position:relative; background:none; display:block; line-height:30px;}
+#nav .menu  li a { line-height:30px !important; padding:0px; text-align:left; color:#333; padding-left:10px;}
+
+#nav .menu  li.active { border-bottom:none}
+.main-block-top { padding-top:80px}
+.main-block-top img { width:80%}
+.blocktext h2 { font-size:32px; color:#f3c413; margin-bottom:2%}
+.blocktext p { font-size:16px;margin-bottom:1%; line-height:26px}
+.listinfo li { padding:1% 4%; display:inline-block; border-left:none; width:30%}
+.listinfo li h2 {margin-bottom:2%; text-transform:uppercase; font-size:20px;}
+.listgamer li { width:100%; display:inline-block; padding:3%}
+.listgamer li img { max-width:80%}
+
+#infoTeam .listeam li a { font-size:10px}
+.topInfo { padding-top:60px} 
+#part .listcont li { font-size:10px;}
+.tabmenu li { float:left; width:45%; margin:0 2%; }
+.tabmenu li a {font-size:14px}
+.theat { display:none}
+
+/*==bxbit===*/
+.bxbit .rowbit h2.date { font-size:16px;}
+.linebox { padding:10px 0;  margin-bottom:-1px; position:relative}
+.linebox:hover { cursor:pointer; background-color:rgba(0,0,0,0.5)}
+.rowbit .bxtime { width:100%; margin-bottom:2%}
+.team-cl { overflow:hidden; float:none; width:100%}
+.team-cl .bxteamleft {  width:26%; float:left; overflow:hidden; line-height:52px;}
+.team-cl .bxteamleft .nameteam,.team-cl .bxteamright .nameteam { font-size:20px; }
+.team-cl .bxteamright {  width:26%; float:left; overflow:hidden; line-height:52px; margin-left:20px; text-align:left}
+.coregift { float:none; width:100%; line-height:52px; font-size:24px; text-transform:uppercase; color:#f3c413; text-align:center}
+
+.bxipgift,.bx-selec-bit {padding-left:0%;}
+#detailBit .team-cl,#detailBit .td2 { width:100%}
+#livevideos .bx-selec-bit,#livevideos .bxipgift { padding:0%; }
+/*==footer===*/
+footer { background-color:#000; padding:20px 0; margin-top:50px; }
+footer .logo-footer { float:none; width:96%; text-align:center}
+footer .coppy { float:none; width:96%; font-size:10px; line-height:16px; color:#898989;  text-align:justify; padding:10px 0}
+
+}
+ @media screen and (max-width:580px) {
+	 
+.blocktext h2 { font-size:20px;}
+.blocktext p { font-size:13px; line-height:20px}
+.listinfo li { width:100%}
+.listinfo li h2 {font-size:14px;}
+.listgamer li img { max-width:80%}
+#infoTeam .listeam li a { font-size:8px}
+#part .listcont li { font-size:8px;}
+.tabmenu li a {font-size:12px}
+.team-cl .bxteamleft .nameteam,.team-cl .bxteamright .nameteam { font-size:11px; line-height:30px }
+.team-cl .bxteamleft {  width:28%;  margin-right:2%; line-height:26px}
+.team-cl .bxteamright {  width:28%;  margin-left:2%; line-height:26px}
+.bxflags .flags { width:24px; height:24px; float:left; display:block;}
+.team-cl .bxflags {  width:40%; line-height:22px}
+.bxflags .point {font-size:12px; line-height:24px; width:40px}
+.rowbt { margin-bottom:3% !important}
+.rowbt a { line-height:30px; color:#333; font-size:14px;}
+.topInfo h2 { font-size:26px;}
+.topInfo p { font-size:14px; line-height:22px}
+.coregift {  font-size:20px; }
+.bread {font-size:11px; display:none}
+.bxbit { margin-top:0}
+#livevideos .bxipgift { padding-top:2%}
+.bxipgift img { width:80%}
+.resuleLive { width:30%; margin:1% auto;}
+.resuleLive span { line-height:30px; font-size:20px}
+.contchat .rowcont .avatar { width:12%;}
+.contchat .rowcont .textchat { width:86%; margin-left:2%; float:left}
+.title {  font-size:22px;}
+.listgift li .x2 img { width:30px}
+}
+
+
+
